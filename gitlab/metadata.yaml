@@ -1,0 +1,17 @@
+# Copyright 2021 Erik Lönroth
+# See LICENSE file for licensing details.
+name: gitlab
+description: |
+  A gitlab server
+summary: |
+  The gitlab server, installed as described here: https://about.gitlab.com/install/#ubuntu
+  After installation, the initial root password is located in /etc/gitlab/initial_root_password
+tags:
+  - ops
+series:
+  - focal
+subordinate: false
+
+provides:
+  website:
+    interface: http
