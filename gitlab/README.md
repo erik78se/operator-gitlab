@@ -10,6 +10,7 @@ This charm does not need a database or anything since its bundled with the insta
 At least 6G seems to be needed to deploy.
 
     juju deploy ./gitlab.charm --constraints="mem=6G"
+    juju expose gitlab
 
 The initial root password is found in: /etc/gitlab/initial_root_password
 
