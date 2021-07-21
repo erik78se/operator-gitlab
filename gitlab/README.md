@@ -14,6 +14,13 @@ At least 6G seems to be needed to deploy.
 
 The initial root password is found in: /etc/gitlab/initial_root_password
 
+
+## Use with gitlab-runner
+This charm works great in conjuction with gitlab-runners for CI/CD.  Read here https://charmhub.io/gitlab-runner/docs
+
+    juju deploy gitlab-runner --config runner-config.yaml
+     
+
 ## Configuration
 Nothing yet
 
